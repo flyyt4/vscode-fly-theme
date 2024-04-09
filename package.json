@@ -1,0 +1,21 @@
+{
+  "name": "fly-theme",
+  "displayName": "fly-theme",
+  "description": "A personal theme for flyyt4 developer",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "was purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/was-purple.json"
+      }
+    ]
+  }
+}
